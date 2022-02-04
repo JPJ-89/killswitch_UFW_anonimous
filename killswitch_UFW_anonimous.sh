@@ -17,8 +17,8 @@ sudo ufw deny out on tun0
 
 ### FORZAR GATEWAY A VPN
 
-ip route del default via 192.168.1.1
-ip route del default via 192.168.0.1
+ip route del default via 192.168.1.1  //Borra "192.168.1.1" como Default Gateway
+ip route del default via 192.168.0.1  //Borra "192.168.0.1" como Default Gateway
 #ip route add default via 10.8.8.1
 
 
